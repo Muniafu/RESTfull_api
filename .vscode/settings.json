@@ -1,0 +1,26 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#372D02",
+        "titleBar.activeBackground": "#4D3E02",
+        "titleBar.activeForeground": "#FEFBEB"
+    },
+    "cSpell.words": [
+        "Addstudent",
+        "Adduser",
+        "dbname",
+        "Deletestudent",
+        "Deleteuser",
+        "firstname",
+        "Getstudent",
+        "Getuser",
+        "lastname",
+        "Oneuser",
+        "registermodel",
+        "studentcontroller",
+        "studentsmodel",
+        "Updatestudent",
+        "Updateuser",
+        "usercontroller",
+        "usermodel"
+    ]
+}
