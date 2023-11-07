@@ -26,6 +26,8 @@ const userSchema = new Schema({
         }
     }
 })
+
+// hashing thr password before its saved
 userSchema.pre('save', async function(next){
     try{
         const salt = await bcrypt.genSalt(10)
@@ -36,6 +38,8 @@ userSchema.pre('save', async function(next){
         next(error)
     }
 });
+
+userSchema.methods.isValidPassword
 
 
 module.exports =mongoose.model ('user', userSchema)
