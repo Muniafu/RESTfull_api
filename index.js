@@ -20,11 +20,11 @@ app.listen(process.env.PORT || 4000, function(){
 });
 
 // Create a user schema
-const userSchema = new mongoose.Schema({
-    username: String,
-    email: String,
-    password: String,
-});
+// const userSchema = new mongoose.Schema({
+//     username: String,
+//     email: String,
+//     password: String,
+// });
 
 // Handling 404 error
 app.use((re, res, next) => {
