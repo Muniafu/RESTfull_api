@@ -4,7 +4,7 @@ const routes = express.Router();
 const user = require('../models/usermodel')
 const usercontroller = require('../controller/usercontroller');
 const auth_Schema = require ('../auth/auth_Schema');
-const {signAccessToken} = require('../helpers/jwtHelper')
+const {signAccessToken} = require('../helpers/jwtHelper');
 
 // add a user to the database
 routes.post('register', usercontroller.Adduser);
